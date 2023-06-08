@@ -1,0 +1,9 @@
+<div>
+    <h2 class="presentation-title">{{ produit.name }}</h2>
+    <img class="presentation-image small-image" [src]="produit.imageUrl">
+  
+    <div class="button-container">
+      <button class="presentation-button" (click)="redirectToPage('produit-detail/' + produit.id)">Détails</button>
+    </div>
+</div>
+  
